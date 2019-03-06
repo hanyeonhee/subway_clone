@@ -1,0 +1,135 @@
+.navbar-default{
+    background : white;
+    border : none;
+    padding-top : 15px;
+    padding-bottom : 15px;
+    border-radius: 0px;
+    border-top: 5px solid #009223;
+
+}
+.navbar-brand{
+    padding-top: 5px;
+
+}
+.navbar-default li a {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color : #333 !important;
+
+}
+
+.navbar-default li a:hover {
+    color : #009223 !important;
+
+}
+
+.main-top{
+    position : relative;
+
+}
+.main-top .row{
+    width : 600px;
+    margin : 0px;
+    position : absolute;
+    bottom : 0px;
+    right : 0px;
+    margin-bottom: -20px;
+    margin-right : 10%
+
+}
+.main-top .row .col-xs-6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    padding : 20px;
+
+}
+.main-top .row .main-yellow {
+    background: #ffce32;
+    border-top-left-radius: 20px;
+    color : #333;
+
+}
+.main-top .row .main-green {
+    background: #009223;
+    border-bottom-right-radius: 20px;
+    color : white;
+}
+.subway-menu{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.subway-menu h4{
+    text-align: center;
+    
+
+}
+.subway-news{
+    background : #f1f1f1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.subway-news .row{
+    margin : 0;
+}
+.subway-news .col-sm-4 h4{
+    position: absolute;
+    top : 0;
+    bottom: 0;
+    padding : 30px;
+    color : white;
+
+}
+.btn-white{
+    width : 100px;
+    padding : 10px;
+    color : white;
+    font-size : 16px;
+    font-weight : bolder;
+    background : transparent;
+    border : 2px solid white;
+    border-radius : 50px;
+    position: absolute;
+    left:0px;
+    bottom: 0;
+    margin-left : 60px;
+    margin-bottom : 30px;
+}
+.btn-white a{
+    color : white;
+}
+.subway-news .col-sm-8 h4{
+    position: absolute;
+    top : 0;
+    left: 0;
+    padding-top : 30px;
+    padding-left : 380px;
+    color : white;
+    
+}
+.subway-bottom {
+    padding : 50px;
+}
+.subway-bottom h4{
+    font-weight: bolder;
+}
+.subway-bottom p {
+    color : #898989;
+
+}
+footer{
+    background : #292929;
+    color : #666666;
+    padding : 50px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main-top .row {
+        display : none;
+    }
+  }
